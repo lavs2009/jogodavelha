@@ -11,12 +11,12 @@
 <body>
     <header>
         <h1>Jogo da velha</h1>
-        <div>
-            <span>Jogador 1:</span>
-            <span>Jogador 2:</span>
+        <div class="placar">
+            <p>Jogador 1 (X): <span id="placar-jogador1">0</span></p>
+            <p>Jogador 2 (O): <span id="placar-jogador2">0</span></p>
         </div>
     </header>
-    <main id='jogo'>
+    <main class='tabuleiro'>
         <button data-pos="0"></button>
         <button data-pos="1"></button>
         <button data-pos="2"></button>
@@ -27,6 +27,10 @@
         <button data-pos="7"></button>
         <button data-pos="8"></button>
     </main>
+    <footer>
+        <button id="reiniciar">Reiniciar Jogo</button>
+        
+    </footer>
     <script src='script.js'></script>
 </body>
 
