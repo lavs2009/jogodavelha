@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='style.css' rel='stylesheet'>
-    <title>Jogo da velha</title>
+    <link href="style.css" rel="stylesheet">
+    <title>Jogo da Velha</title>
 </head>
 
 <body>
     <header>
-        <h1>Jogo da velha</h1>
-        <div>
-            <span>Jogador 1: </span>
-            <span>Jogador 2: </span>
+        <h1>Jogo da Velha</h1>
+        <div class="placar">
+            <span id="jogador1">Jogador 1: 0</span>
+            <span id="jogador2">Jogador 2: 0</span>
         </div>
     </header>
 
-    <main id='jogo'>
+    <main id="jogo">
         <button data-pos="0"></button>
         <button data-pos="1"></button>
         <button data-pos="2"></button>
@@ -28,9 +28,10 @@
         <button data-pos="7"></button>
         <button data-pos="8"></button>
     </main>
+
     <button id="reiniciar">Reiniciar</button>
 
-    <script src='script.js'></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
