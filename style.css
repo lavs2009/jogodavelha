@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -63,3 +64,30 @@ header div {
 #reiniciar:hover {
   background-color: #113a70;
 }
+=======
+    /* Estilos para o tabuleiro e os botões */
+    .tabuleiro {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .tabuleiro button {
+        width: 100px;
+        height: 100px;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .placar {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    #reiniciar {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+>>>>>>> 6ed95067fae7b642a5e1cee6f5898c71fff4438d
